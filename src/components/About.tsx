@@ -14,7 +14,7 @@ const About = () => {
     >
       <div className="flex flex-col items-center justify-center">
         <div>
-          <img src={logo} alt={companyName} className="w-16 h-16" />
+          <img src={logo} alt={companyName} className="h-16" />
         </div>
         <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
           {sections.map((section, index) => (
@@ -79,9 +79,9 @@ const About = () => {
         </div>
         <div className="flex items-center mt-6">
           <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
-            &copy; {new Date().getFullYear()} designed by{' '}
+            &copy; {new Date().getFullYear()} developed by{' '}
             <a href="https://github.com/issaafalkattan" rel="nofollow">
-              Issaaf Kattan
+              주식회사 깨끗한
             </a>
           </p>
         </div>
